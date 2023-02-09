@@ -1,0 +1,10 @@
+Assumptions:
+
+- The application will be executed from a regular personal computer with limited power processing capacities.
+- The purpose of the application is to test a low range of values just to test the developer's skills.
+
+Therefore, the application will only accept numbers from 0 to 70.Numbers higher than 70 would require to thing in a more robust solution:
+- Machines with higher processing power.
+- Elaborate a solution to deliver the result to the user in an asynchronous way, using like Kafka per example. It's just an example,
+  proof of concept(POC) should be developed to test.
+- Perform tests with java types that support big numbers.

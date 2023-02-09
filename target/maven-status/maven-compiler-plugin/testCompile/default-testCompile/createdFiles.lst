@@ -1,0 +1,4 @@
+pt/com/altice/ServiceTestBase.class
+pt/com/altice/ServiceUnitTestBase.class
+pt/com/altice/ServiceIntegrationTestBase.class
+pt/com/altice/AlticeServiceTestCase.class

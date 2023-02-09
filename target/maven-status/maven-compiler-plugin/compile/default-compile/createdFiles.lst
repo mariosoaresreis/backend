@@ -1,0 +1,7 @@
+pt/com/altice/BusinessException.class
+pt/com/altice/host/altice/AlticeEndpoint.class
+pt/com/altice/host/SwaggerConfig.class
+pt/com/altice/host/WebConfiguration.class
+pt/com/altice/service/impl/AlticeServiceImpl.class
+pt/com/altice/service/AlticeService.class
+pt/com/altice/AlticeRecruitment.class

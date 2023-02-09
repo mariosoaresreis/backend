@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: AlticeRecruitment
+  profiles:
+    active: local
+  main:
+    allow-bean-definition-overriding: true
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.DB2390Dialect
+        
+server.port: 8090  
+    
+---
+
+spring:
+  application:
+    name: AlticeRecruitment
+  profiles:
+    active: local
+  main:
+    allow-bean-definition-overriding: true
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.DB2390Dialect
+
+server.port: 8090  
+      
+versao: "1.0"
+
+
+
+logging:
+  level:
+    org.springframework.security: ERROR
+    org.springframework.web: ERROR
+    org.springframework.web.filter.CommonsRequestLoggingFilter: ERROR
+    io.swagger.client: ERROR
+    br.com.vr: ERROR   

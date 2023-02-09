@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  alticeRecruitment:
+    image: alticebackend:1.0
+    container_name: alticebackend
+    ports:
+      - 8090:8090        

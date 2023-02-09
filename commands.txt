@@ -1,0 +1,7 @@
+--execute in the root of the project, where the file Dockerfile is located
+mvn -f pom.xml clean package
+sudo docker build -t alticentbackend:1.0 .
+sudo docker-compose up
+
+
+access in a browser http://localhost:8090/swagger-ui.html
